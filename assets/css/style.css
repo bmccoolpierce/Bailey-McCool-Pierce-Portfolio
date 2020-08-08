@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr repeat(3 1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    
+background-color:lightblue;
+text-decoration: none;
+
+}
+.header h1{
+    float: left;
+    border-bottom: hotpink;
+    border-bottom-style: inset;
+    color: green;
+    width: 40%;
+    
+}
+.header h2 {
+    float: left;
+}
+
+.McCool:hover {
+color: hotpink;
+}
+
+.header div ul {
+    display: inline-block;
+    width: 50%;
+    list-style-type: none;
+    color: green;
+    
+
+}
+
+.header div ul li {
+    display: inline-block;
+    color: green;
+    
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/images/miniature-game-mat-space-hulk-theme-1.jpg);
+}
+
+.subheader h2{
+    float: left;
+    width: 33%;
+    text-overflow: wrap;
+    color: lightsalmon;
+    background-color: darkgrey;
+}
+
+.subheader p {
+    width: 33%;
+    text-overflow: wrap;
+    color: lightblue;
+    background-color: whitesmoke;
+
+}
